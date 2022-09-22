@@ -1,0 +1,40 @@
+:root {
+  --praimary-color: #ffdc76;
+  --secondary-color: #773838;
+  --accent-color: #4a2c2c;
+  --gradient: linear-gradient(
+    87.4deg,
+    rgb(255, 241, 165) 1.9%,
+    rgb(200, 125, 76) 49.7%,
+    rgb(83, 54, 54) 100.5%
+  );
+}
+
+body {
+  background: var(--praimary-color);
+}
+h1 {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+footer a {
+  margin: 0 10px;
+  color: green;
+  font-size: 18px;
+}
+
+p {
+  text-align: center;
+  font-size: 20px;
+  display: block;
+  color: var(--accent-color);
+}
+
+.croissant-photo {
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
+}
